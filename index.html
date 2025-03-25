@@ -1,87 +1,91 @@
 <!--Me comenta Rubén que añadiria una fotografía,se la añado-->
 <!--El color de los enlaces y el hover tambien lo modifique -->
 
-<!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum de David</title>
+    <title>CV David Muñoz Marín</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
-
 <body>
-    <header>
-        <img src="imagen1.jpg" alt="Foto de David" class="foto-perfil">
-        <h1>David Muñoz Marín</h1>
-        <p>Desarrollador Web | Fresador CNC | Croupier</p>
-        <p>Email: <a href="mailto:kenmastrs@gmail.com">kenmastrs@gmail.com</a></p>
-        <p>Teléfono: +34 669 41 38 69</p>
-        <p>Linkedin: <a href="https://www.linkedin.com/in/david-mu%C3%B1oz-marin-b3a94b1b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bz6ByznpnTqmAYfZ2wyGngA%3D%3D">David Muñoz Marin</a></p>
-    </header>
-
-    <section class="experiencia">
-        <h2>Experiencia</h2>
-        <ul>
-            <li>
-                <strong>Fresador CNC</strong>
-                <p>febrero 2019 - junio 2023</p>
-                <p>Maquinista de fresadora CNC 3 ejes con control Heidenhain:</p>
-                <p>Lectura e interpretación de planos, fabricación de piezas a medida dentro de sus estándares y tolerancias, programación a pie de máquina a medida.</p>
-            </li>
-            <li>
-                <strong>Croupier en mesas de juego</strong>
-                <p>noviembre 2006 - junio 2018</p>
-                <p>Croupier en mesas de juego de casino:</p>
-                <p>Dominio de todos los juegos de la sala, atención al cliente y habilidad en el desempeño de las partidas.</p>
-            </li>
-            <li>
-                <strong>Dependiente en Toys 'R' Us</strong>
-                <p>septiembre 2004 - septiembre 2006</p>
-                <p>Dependiente, reponedor, cajero:</p>
-                <p>Atención al cliente constante, organización de la tienda, cobro en cajas, etc.</p>
-            </li>
-        </ul>
-    </section>
-
-    <section class="educacion">
-        <h2>Educación</h2>
-        <ul>
-            <li>
-                <strong>Desarrollo de aplicaciones web</strong>
-                <p>IES Francisco de Goya, 2023 - Actualidad (en FCT)</p>
-            </li>
-            <li>
-                <strong>Prueba de acceso a ciclos de grado superior</strong>
-                <p>IES Miguel de Cervantes, 2023</p>
-            </li>
-            <li>
-                <strong>Mecanizado por corte y conformado</strong>
-                <p>FREEM, 2018 - 2019</p>
-            </li>
-            <li>
-                <strong>Graduado en ESO</strong>
-                <p>Colegio Marco, 2000 - 2004</p>
-            </li>
-        </ul>
-    </section>
-
-    <section class="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Informática</li>
-            <li>Hardware y software</li>
-            <li>Soporte técnico</li>
-            <li>Trabajo en equipo</li>
-            <li>Interés y compromiso</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>Más información en: <a href="https://github.com/KenMastters" target="_blank">GitHub</a></p>
-    </footer>
+    <div class="container">
+        <header>
+            <img src="imagen1.jpg" alt="Foto de David Muñoz Marín" class="profile-pic">
+            <h1 class="glow-text">David Muñoz Marín</h1>
+            <p>Desarrollador Web en formación</p>
+        </header>
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <p><strong>Dirección:</strong> Avenida del Golf N°237, 2D, 30506, Molina De Segura, Altorreal</p>
+            <p><strong>Teléfono:</strong> 669413869</p>
+            <p><strong>Email:</strong> kenmastrs@gmail.com</p>
+            <p><strong>Estado Civil:</strong> Casado</p>
+            <p><strong>Nacionalidad:</strong> Española</p>
+            <p><strong>Fecha de Nacimiento:</strong> 04/11/1985</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/david-mu%C3%B1oz-marin-b3a94b1b4" target="_blank">Perfil de LinkedIn</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/KenMastters" target="_blank">Perfil de GitHub</a></p>
+        </section>
+        <section class="resumen">
+            <h2>Resumen Profesional</h2>
+            <p>Persona comunicativa, amable y capaz de adaptarse a cada situación. Busco una oportunidad laboral en la que demostrar mi compromiso y capacidad de trabajo. En mis empleos anteriores siempre he destacado por mi buena productividad, mi capacidad de aprender rápidamente y mi organización. Deseo tener un impacto positivo en una posición a largo plazo.</p>
+        </section>
+        <section class="formacion">
+            <h2>Formación</h2>
+            <p><strong>Grado Superior en Desarrollo de Aplicaciones Web (DAW)</strong> - IES Francisco de Goya (2023-2025)</p>
+            <p><strong>Prueba de Acceso a Grado Superior</strong> - IES Miguel de Cervantes (2023) - Nota media: 6,7</p>
+            <p><strong>Mecanizado por Corte y Conformado: Tornero Fresador</strong> - FREMM (2019)</p>
+            <p><strong>Graduado en E.S.O</strong> - Colegio Marco (2001)</p>
+        </section>
+        <section class="experiencia">
+            <h2>Experiencia Laboral</h2>
+            <div class="job">
+                <h3>Tornero Fresador</h3>
+                <p><em>Mecanizados Martínez Toledo S.L. | Murcia | Mar 2019 - Jun 2023</em></p>
+            </div>
+            <div class="job">
+                <h3>Crupier</h3>
+                <p><em>Casino Rincón de Pepe S.A. (Grupo Orenes) | Murcia | Dic 2006 - Jun 2018</em></p>
+            </div>
+            <div class="job">
+                <h3>Dependiente</h3>
+                <p><em>Toys'R Us | Murcia | Feb 2006 - May 2006</em></p>
+            </div>
+            <div class="job">
+                <h3>Operario de Producción de Alimentos</h3>
+                <p><em>Pepsico Foods Alvalle | Murcia | May 2003 - Sep 2006</em></p>
+            </div>
+        </section>
+        <section class="aptitudes">
+            <h2>Aptitudes</h2>
+            <ul>
+                <li>Introducción de datos</li>
+                <li>Gestión eficiente del tiempo</li>
+                <li>Puntualidad y compromiso</li>
+                <li>Responsabilidad</li>
+                <li>Atención al cliente</li>
+                <li>Dominio tecnológico</li>
+                <li>Habilidades sociales</li>
+                <li>Persona organizada</li>
+                <li>Cooperación y trabajo en equipo</li>
+            </ul>
+        </section>
+        <section class="contact-form">
+            <h2>Contacto Directo</h2>
+            <form action="mailto:kenmastrs@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="neon-button">Enviar</button>
+            </form>
+        </section>
+    </div>
 </body>
-
 </html>
